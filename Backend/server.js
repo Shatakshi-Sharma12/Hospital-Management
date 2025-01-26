@@ -8,7 +8,7 @@ import healthRouter from "./routes/healthRoutes.js";
 
 const app=express();
 const allowedOrigins = [
-    'https://medcare-orpin.vercel.app/',
+    'https://medcare-orpin.vercel.app',
     'http://localhost:5173',
 ];
 
