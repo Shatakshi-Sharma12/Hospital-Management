@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server:{
     proxy:{
-      '/auth':'https://hospital-management-3tyt.onrender.com',
+      '/auth':'https://medcare-7dnb.onrender.com',
     },
   },
   resolve: {

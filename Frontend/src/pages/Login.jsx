@@ -48,8 +48,8 @@ const Login = () => {
 
     try {
       const endpoint = isLogin
-        ? 'https://hospital-management-3tyt.onrender.com/auth/login'
-        : 'https://hospital-management-3tyt.onrender.com/auth/signup';
+        ? 'https://medcare-7dnb.onrender.com/auth/login'
+        : 'https://medcare-7dnb.onrender.com/auth/signup';
 
       const payload = isLogin
         ? { email, password }
